@@ -17,7 +17,7 @@ gulp.task('clean', ()=>{
     return del(['nuget.exe', 'packages', 'WebForms1/output'])
 });
 
-gulp.task('download:nuget', ['clean'] ,(cb)=>{
+gulp.task('download:nuget', ['clean'] ,()=>{
     return request('http://nuget.org/nuget.exe')
             .pipe(fs.createWriteStream('nuget.exe'));
 });
