@@ -1,4 +1,6 @@
-This is an example of a webforms project being compiled into a docker container. The gulp file is used for build orchestration. This is for **windows 10** or **server 2016**
+This is an example of a webforms project being compiled into a docker container. The gulp file is used for build orchestration. This is for **windows 10** or **server 2016**.
+
+I wrote a litte [blog post about it](https://blog.tparnell.io/dockerize-that-old-webforms-app/).
 
 ## Gettting started
 
