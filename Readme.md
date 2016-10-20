@@ -39,3 +39,12 @@ usage:
 `gulp build --version 1.0.1` 
 
 
+output:
+
+```
+docker images
+
+REPOSITORY                    TAG                 IMAGE ID            CREATED             SIZE
+tparnell/mywebforms           1.0.1               de4de30a1b13        34 minutes ago      9.246 GB
+
+```
