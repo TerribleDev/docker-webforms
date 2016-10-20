@@ -1,0 +1,20 @@
+{
+  "name": "webforms1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-dotnet-assembly-info": "^0.1.12",
+    "gulp-msbuild": "^0.4.1",
+    "gulp-nuget": "^1.0.1",
+    "request": "^2.75.0",
+    "yargs": "^6.2.0"
+  }
+}
